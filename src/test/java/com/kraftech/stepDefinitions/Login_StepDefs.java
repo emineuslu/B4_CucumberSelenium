@@ -1,6 +1,7 @@
 package com.kraftech.stepDefinitions;
 
 import com.kraftech.pages.LoginPage;
+import com.kraftech.utilities.BrowserUtils;
 import com.kraftech.utilities.ConfigurationReader;
 import com.kraftech.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -47,14 +48,21 @@ public class Login_StepDefs {
     public void the_user_logs_in_using_and(String string, String string2) {
         loginPage.login(string,string2);
     }
+
     @Then("Validate that username is {string}")
     public void validate_that_username_is(String string) {
-        String expected=string;
-        String actual=loginPage.getUserAccountName();
+        String expected = string;
+        String actual = loginPage.getUserAccountName();
         Assert.assertEquals(expected,actual);
     }
-
-
-
-
+    @Then("Validate that warning message is {string}")
+    public void validateThatWarningMessageIs(String expectedMessage) {
+        BrowserUtils.waitFor(1);
+        String actualWarningMessageText = loginPage.getWarningMessageText(expectedMessage);
+        Assert.assertEquals(expectedMessage,actualWarningMessageText);
     }
+
+
+
+
+}

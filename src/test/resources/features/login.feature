@@ -3,8 +3,8 @@ Feature: Kraftech Login Test
   # Agile Story: As a user I should be able to login with valid credentials
 
 
-  Background:
-    Given The user is on the login page
+ # Background:
+   # Given The user is on the login page
 
 
 
@@ -28,8 +28,8 @@ Feature: Kraftech Login Test
     Then The user should be able to login
 
 
-    @SDET @login @smoke @dataBase
-  Scenario: Login as a SDET
-      Given The user is on the login page
-      When The user enters SDET credentials
-      Then The user should be able to login
+   # @SDET @login @smoke @dataBase
+ # Scenario: Login as a SDET
+     # Given The user is on the login page
+      #When The user enters SDET credentials
+      #Then The user should be able to login

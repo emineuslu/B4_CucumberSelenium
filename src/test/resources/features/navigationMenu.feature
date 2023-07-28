@@ -26,7 +26,7 @@ Feature: Navigation Menu Test
     Given The user is on the login page
     When Login as Sebastian
     Then Validate that Dashboard text is visible
-    When Go to Forms-Input menu
+    When Go to forms-input menu
     Then Validate that General Form Elements - Input text is visible
 
 
@@ -42,5 +42,5 @@ Feature: Navigation Menu Test
     Given The user is on the login page
     When Login as John
     Then Validate that Dashboard text is visible
-    When Go to My Profile menu
-    Then Validate that User Profile text is visible
+    When Go to my profile menu
+    Then Verify that User Profile text is visible

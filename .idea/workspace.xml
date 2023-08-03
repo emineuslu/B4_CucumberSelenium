@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80c14810-4124-443e-b967-defad7ce8626" name="Changes" comment="files added 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/TestingExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/KT_B4 DDF test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/loginTestWithDDF.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_07_2023_21_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_07_2023_21_38__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_07_2023_21_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_07_2023_21_40__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_07_2023_02_42__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_07_2023_02_42__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/DashboardMenu_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/DashboardMenu_StepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/Login_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/Login_StepDefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -22,6 +39,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -41,11 +61,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/emneu/IdeaProjects/B4_CucumberSelenium/src/test/resources/features&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/emneu/IdeaProjects/B4_CucumberSelenium/src/test/resources&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\emneu\IdeaProjects\B4_CucumberSelenium\src\test\resources" />
       <recent name="C:\Users\emneu\IdeaProjects\B4_CucumberSelenium\src\test\resources\features" />
       <recent name="C:\Users\emneu\IdeaProjects\B4_CucumberSelenium\src\test\java\com\kraftech\utilities" />
     </key>
@@ -55,7 +76,20 @@
       <recent name="com.kraftech.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: edit profile test">
+  <component name="RunManager" selected="Application.TestingExcel">
+    <configuration name="TestingExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kraftech.pages.TestingExcel" />
+      <module name="B4_CucumberSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kraftech.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Login as a teacher" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
@@ -85,26 +119,6 @@
       <option name="NAME_FILTER" value="^Login with Mike \- Cucumber Parameters$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with Mike \- Cucumber Parameters$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Login with Mike - Cucumber Parameters" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: edit profile test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/editProfilePage.feature" />
-      <option name="GLUE" value="com.kraftech.stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="B4_CucumberSelenium" />
-      <option name="NAME_FILTER" value="^edit profile test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^edit profile test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: edit profile test" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestingExcel" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: negative login test" />
         <item itemvalue="Cucumber Java.Scenario: Login with Mike - Cucumber Parameters" />
         <item itemvalue="Cucumber Java.Scenario: Login as a teacher" />
-        <item itemvalue="Cucumber Java.Scenario: edit profile test" />
       </list>
     </recent_temporary>
   </component>

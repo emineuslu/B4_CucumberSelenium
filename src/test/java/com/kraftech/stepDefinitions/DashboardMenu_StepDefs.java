@@ -4,10 +4,12 @@ import com.kraftech.pages.DashboardPage;
 import com.kraftech.pages.LoginPage;
 import com.kraftech.pages.UserProfilePage;
 import com.kraftech.utilities.BrowserUtils;
+import com.kraftech.utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.commons.logging.Log;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
@@ -53,6 +55,9 @@ public class DashboardMenu_StepDefs {
     @When("The user navigates to {string} and {string} sub menu")
     public void the_user_navigates_to_and_sub_menu(String menu, String subMenu) {
         dashboardPage.navigateToModule(menu,subMenu);
+    }
+    public String getProfilDetails(String details){
+        return Driver.get().findElement(By.xpath("//div[text()='"+details+"']")).getText();
     }
 
 

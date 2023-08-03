@@ -2,7 +2,7 @@
 Feature: Login tests with cucumber mike
 
   #
-  @mikeParameter   @parameterizeMethod
+  @mikeParameter   @parameterizeMethod @gird
   Scenario: Login with Mike - Cucumber Parameters
     Given The user is on the login page
     When The user logs in using "mike@gmail.com" and "mike1234"
@@ -10,7 +10,7 @@ Feature: Login tests with cucumber mike
     Then Validate that username is "mike"
 
      #John
-  @johnParameter   @parameterizeMethod
+  @johnParameter   @parameterizeMethod @gird
   Scenario:Login with John - Cucumber Parameters
     Given The user is on the login page
     When The user logs in using "john@gmail.com" and "John1234."

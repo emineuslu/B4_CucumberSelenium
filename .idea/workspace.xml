@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80c14810-4124-443e-b967-defad7ce8626" name="Changes" comment="">
+    <list default="true" id="80c14810-4124-443e-b967-defad7ce8626" name="Changes" comment="files added 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dashboardWithListAndMap.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dashboardWithListAndMap.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/loginWithCucumberParameters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/loginWithCucumberParameters.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,6 +174,14 @@
       <option name="presentableId" value="Default" />
       <updated>1689614642190</updated>
     </task>
+    <task id="LOCAL-00001" summary="files added 2">
+      <created>1691085137135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691085137135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,5 +206,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="files added 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="files added 2" />
   </component>
 </project>

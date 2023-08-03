@@ -1,4 +1,4 @@
-
+@regression
 Feature: Navigation Menu Test
 
   #First Scenario:

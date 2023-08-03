@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80c14810-4124-443e-b967-defad7ce8626" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/ComponentsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/runners/FailedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/Components_StepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/componentsScenarioOutline.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/editProfilePage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/negativeLoginTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/EditProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/EditProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/Login_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/Login_StepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/UserProfile_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/stepDefinitions/UserProfile_StepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/kraftech/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/dashboardWithListAndMap.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dashboardWithListAndMap.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/loginWithCucumberParameters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/loginWithCucumberParameters.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,19 +49,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/emneu/IdeaProjects/B4_CucumberSelenium/src/test/java/com/kraftech/utilities"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/emneu/IdeaProjects/B4_CucumberSelenium/src/test/java/com/kraftech/utilities&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\emneu\IdeaProjects\B4_CucumberSelenium\src\test\java\com\kraftech\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: edit profile test">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="Scenario: Login as a teacher" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
@@ -171,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: edit profile test" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: edit profile test" />
         <item itemvalue="Cucumber Java.Scenario: Login with Mike - Cucumber Parameters" />
         <item itemvalue="Cucumber Java.Scenario: negative login test" />
         <item itemvalue="Cucumber Java.Scenario: Login as a teacher" />
@@ -201,7 +189,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="parallelTest" />
                       </list>
                     </value>
                   </entry>

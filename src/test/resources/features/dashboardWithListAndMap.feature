@@ -1,3 +1,5 @@
+@regression
+
 @c_ListAndMap
 
 Feature: Dashboard Menu Checks

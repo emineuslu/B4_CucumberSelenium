@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80c14810-4124-443e-b967-defad7ce8626" name="Changes" comment="change added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690505008689</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change added">
+      <created>1693167732859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693167732859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +229,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="files added" />
     <MESSAGE value="files added 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="files added 2" />
+    <MESSAGE value="change added" />
+    <option name="LAST_COMMIT_MESSAGE" value="change added" />
   </component>
 </project>
